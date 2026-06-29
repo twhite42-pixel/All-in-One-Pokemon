@@ -1,0 +1,9 @@
+fastapi
+uvicorn[standard]
+sqlalchemy
+pydantic
+pydantic-settings
+httpx                 # async HTTP client for calling PokéAPI
+passlib[bcrypt]       # password hashing (auth)
+python-jose[cryptography]  # JWT tokens (auth)
+python-multipart      # form parsing for login

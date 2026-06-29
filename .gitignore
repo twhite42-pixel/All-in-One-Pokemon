@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.db
+*.sqlite3
+
+# Env / secrets
+.env
+.env.*
+
+# Node / frontend
+node_modules/
+dist/
+frontend/build/
+
+# Rust
+battle-engine/target/
+
+# Editor / OS
+.DS_Store
+.vscode/
+.idea/
+
+# Claude Code local settings
+.claude/
