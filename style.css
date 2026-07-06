@@ -1,0 +1,22 @@
+
+ .card-slider {
+display: flex;
+overflow-x: auto;
+gap: 20px;
+padding: 15px;
+scroll-behavior: smooth;
+ }
+
+ .card-slider::-webkit-scrollbar {
+height: 8px;
+ }
+
+ .card-slider::-webkit-scrollbar-thumb {
+background: #888;
+border-radius: 10px;
+ }
+ .card-slider .card {
+     min-width: 280px;
+    flex: 0 0 auto;
+ }
+   
