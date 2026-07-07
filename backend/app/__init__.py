@@ -1,0 +1,1 @@
+from .pokemon import get_pokemon_of_the_day
